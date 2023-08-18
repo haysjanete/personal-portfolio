@@ -2,9 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  -webkit-animation: bgMove  100s infinite;
-  animation: bgMove 100s infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-}

@@ -8,7 +8,7 @@ export default function App() {
         </div>
         <div className="position-absolute w-100 gradient-overlay content-relative text-center"></div>
         <div className="content-relative text-center mb-5">
-          <h1 className="mix-blend-difference text-2xl content-relative text-center position-absolute w-100 gradient-overlay mb-5">Janete Hays
+          <h1 className="mix-blend-difference text-2xl content-relative text-center position-absolute w-100 mb-5">Janete Hays
             <br />
             Software Engineer
           </h1>
