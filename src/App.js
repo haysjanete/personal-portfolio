@@ -15,11 +15,15 @@ export default function App() {
         </div>
       </section>
       <section className="two"></section>
-        <div className="text-lg ">About Me</div>
+        <div className="text-3xl font-bold underline bg-green-200 position-center">About Me</div>
+        <img className="float-left"></img>
           <p className=""></p>
       <section className="three"></section>
+        <div className="portfolio">Portfolio Projects</div>
       <section className="four"></section>
+        <div className="skills">Skills</div>
       <section className="five"></section>
+        <div className="contact-me">Contact me</div>
     </main>
   )
 }
