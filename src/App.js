@@ -15,8 +15,9 @@ export default function App() {
         </div>
       </section>
       <section className="two"></section>
-        <div className="text-3xl font-bold underline bg-green-200 position-center">About Me</div>
-        <img className="float-left" src="public/portrait.jpeg"></img>
+        <div className="position: relative bottom-80 left-40 text-5xl font-bold ">About Me</div>
+          <p className="position: relative bottom-80 left-10 text-3xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <img className="float-left" src="public/portrait.jpeg" alt="portrait"></img>
           <p className=""></p>
       <section className="three"></section>
         <div className="portfolio">Portfolio Projects</div>
