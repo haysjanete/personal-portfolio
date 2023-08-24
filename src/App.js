@@ -16,7 +16,7 @@ export default function App() {
       </section>
       <section className="two"></section>
         <div className="text-3xl font-bold underline bg-green-200 position-center">About Me</div>
-        <img className="float-left"></img>
+        <img className="float-left" src="public/portrait.jpeg"></img>
           <p className=""></p>
       <section className="three"></section>
         <div className="portfolio">Portfolio Projects</div>
