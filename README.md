@@ -6,6 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+
+### `npm install`
+
+Install's dependencies and prepares for app development.\
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -14,6 +19,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+
+### `npx tailwind -i ./src/index.css -o ./dist/output.css --watch`
+
+Begins to "watch" changes made with tailwind related objects
+to the component's used.\
+
+Creates a dist file with the updated css from the tailwind html
+components.\
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
