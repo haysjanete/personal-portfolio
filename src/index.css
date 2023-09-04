@@ -84,7 +84,7 @@ section.hero:before {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 15vw;
+    width: 14vw;
     height: 15vw;
 }
 section.hero:after {
