@@ -32,8 +32,15 @@ export default function App() {
               </div>
             </div>
           </section>
-      <section className="three"></section>
-        <div className="portfolio">Portfolio Projects</div>
+      <section className="mx-auto rounded-xl shadow-md bg-light-purple text-6xl text-center py-20">Portfolio Projects
+        <article className="transition duration-700 color-white position-relative rounded-lg overflow-hidden h-80 m-w-md shadow-md transition duration-300">
+          <img src="https://images.hdqwalls.com/wallpapers/bthumb/avatar-the-way-of-the-water-2022-5k-u1.jpg" alt="Avatar wallpaper" className="h-full w-50 transition duration-300 object-cover object-center" />
+            <div className="z-index-1 position-absolute mb-10 mx-12 text-left transition ease-in-out duration-300"></div>
+          </article>
+      </section>
+        <article className="cards"></article>
+        <article className="cards"></article>
+        <article className="cards"></article>
       <section className="four"></section>
         <div className="skills">Skills</div>
       <section className="five"></section>

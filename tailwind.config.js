@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       height: {
         '40': '40rem',
-      }
+      },
+      colors: {
+        'light-purple': '#e8d1f6',
+      },
     },
   },
   plugins: [],
