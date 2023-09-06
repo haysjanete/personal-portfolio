@@ -586,9 +586,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.z-10{
+  z-index: 10;
+}
+
+.mx-12{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
 }
 
 .mb-5{
@@ -609,6 +622,10 @@ video {
 
 .inline-flex{
   display: inline-flex;
+}
+
+.h-80{
+  height: 20rem;
 }
 
 .h-full{
@@ -645,20 +662,65 @@ video {
   align-self: center;
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .rounded-full{
   border-radius: 9999px;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
 }
 
 .rounded-xl{
   border-radius: 0.75rem;
 }
 
+.bg-light-purple{
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 209 246 / var(--tw-bg-opacity));
+}
+
+.object-cover{
+  object-fit: cover;
+}
+
+.object-center{
+  object-position: center;
+}
+
 .p-8{
   padding: 2rem;
 }
 
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.text-left{
+  text-align: left;
+}
+
 .text-center{
   text-align: center;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .text-xs{
@@ -696,6 +758,26 @@ video {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.transition{
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, -webkit-text-decoration-color, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-transform, -webkit-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300{
+  transition-duration: 300ms;
+}
+
+.duration-700{
+  transition-duration: 700ms;
+}
+
+.ease-in-out{
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 * {
@@ -781,7 +863,7 @@ section.hero:before {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 15vw;
+  width: 14vw;
   height: 15vw;
 }
 
@@ -794,10 +876,6 @@ section.hero:after {
   width: 15vw;
   height: 15vw;
   border-top-left-radius: 15vw;
-}
-
-section.two {
-  background-color: #efefef;
 }
 
 section.three {
@@ -846,12 +924,17 @@ section.five {
 }
 
 @media (min-width: 768px){
+  .md\:my-52{
+    margin-top: 13rem;
+    margin-bottom: 13rem;
+  }
+
   .md\:flex{
     display: flex;
   }
 
-  .md\:h-40{
-    height: 40rem;
+  .md\:h-96{
+    height: 24rem;
   }
 
   .md\:w-full{
@@ -862,9 +945,23 @@ section.five {
     flex-shrink: 0;
   }
 
+  .md\:p-0{
+    padding: 0px;
+  }
+
   .md\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
