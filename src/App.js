@@ -32,66 +32,67 @@ export default function App() {
               </div>
             </div>
           </section>
-      <section className="mx-auto rounded-xl shadow-md bg-light-purple text-6xl text-center py-20">Portfolio Projects
-      <div className="wrapper">
-        <h1 className="project">Project One!!
-        <div className="cols">
-          <div className="col" ontouchstart="this.classList.toggle('hover');">
-            <div className="container">
-              <div className="front">
-                <div className="inner">
-                  <p>Project One</p>
-                  <span>This is project one!</span>
+
+          <section className="three">
+            <div className="wrapper">
+              <h1>Projects</h1>
+              <div className="cols">
+                  <a href="https://github.com/haysjanete/Personal-Project-Tracker" target="_blank" className="col" ontouchstart="this.classList.toggle('hover');">
+                    <div className="container">
+                      <div className="front" style={{backgroundImage: `url(https://unsplash.it/500/500/)`}}>
+                        <div className="inner">
+                          <p>Project Alpha</p>
+                          <span>2022</span>
+                        </div>
+                      </div>
+                      <div className="back">
+                        <div className="inner">
+                          <p>React, Tailwind, Node.js, etc.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+
+                  <div className="col" ontouchstart="this.classList.toggle('hover');">
+                    <div className="container">
+                      <div className="front" style={{backgroundImage: `url(https://unsplash.it/502/502/)`}}>
+                        <div className="inner">
+                          <p>Project Beta</p>
+                          <span>2023</span>
+                        </div>
+                      </div>
+                      <div className="back">
+                        <div className="inner">
+                          <p>React, Tailwind, Node.js, etc.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="col" ontouchstart="this.classList.toggle('hover');">
+                    <div className="container">
+                      <div className="front" style={{backgroundImage: `url(https://unsplash.it/504/504/)`}}>
+                        <div className="inner">
+                          <p>Project Charlie</p>
+                          <span>2023</span>
+                        </div>
+                      </div>
+                      <div className="back">
+                        <div className="inner">
+                          <p>React, Tailwind, Node.js, etc.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="back text-center rounded-lg text-2xl position-absolute top-0 left-0 w-full">
-                <div className="inner">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                </div>
-              </div>
             </div>
-          </div>
-          <div className="col">
-            <div className="container">
-              <div className="front">
-                <div className="inner">
-                  <p>Project Two</p>
-                  <span>This is project two!</span>
-                </div>
-              </div>
-              <div className="back">
-                <div className="inner">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col">
-            <div className="container">
-              <div className="front">
-                <div className="inner">
-                  <p>Project three</p>
-                  <span>This is project three!</span>
-                </div>
-              </div>
-              <div className="back">
-                <div className="inner">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </h1>
-      </div>
-      </section>
-        <article className="cards"></article>
-        <article className="cards"></article>
-        <article className="cards"></article>
-      <section className="four"></section>
+          </section>
+      <section className="four">
         <div className="skills">Skills</div>
-      <section className="five"></section>
+      </section>
+      <section className="five">
         <div className="contact-me">Contact me</div>
+      </section>
     </main>
   )
 }
