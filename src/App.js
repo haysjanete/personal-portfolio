@@ -87,8 +87,8 @@ export default function App() {
                 </div>
             </div>
           </section>
-
-      <div className="skill-title">Skills</div>
+{/* -----------Skills Section------------------- */}
+      <div className="main-title">Skills</div>
       <div className="four">
           <div className="card">
             <div className="boxshadow"></div>
@@ -96,7 +96,8 @@ export default function App() {
                 <div className="top"></div>
                 <div className="left side"></div>
                 <div className="right side"></div>
-                <div className="title">TITLE</div>
+                <div className="title">Programming Languages</div>
+                  <div className="skill-title">Python3</div>
                 <div className="button-container">
                     <button className="button"><svg className="svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2" stroke-linecap="round"
